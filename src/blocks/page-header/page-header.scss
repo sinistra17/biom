@@ -1,0 +1,8 @@
+.page-header {
+  margin: 53px 0 22px 0;
+  font-family: 'Proxima Nova Bold';
+  color: $accent_text;
+}
+.page-header::after {
+  content: url(../../build/img/ico-arrow.jpg);
+}

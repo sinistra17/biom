@@ -1,0 +1,16 @@
+.event__img {
+  width: 180px;
+  height: 180px;
+  background-color: $article_line;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+
+.event__img_pic_1 {
+  background-image: url(../../build/img/event-1.jpg);
+}
+
+.event__img_pic_2 {
+  background-image: url(../../build/img/event-2.jpg);
+}

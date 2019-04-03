@@ -1,0 +1,9 @@
+.search__text {
+  background: none;
+  border: none;
+  width: 80px;
+}
+
+.search__text::placeholder {
+  color: $invert_text;
+}

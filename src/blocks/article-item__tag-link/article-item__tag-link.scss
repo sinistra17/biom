@@ -1,0 +1,22 @@
+.article-item__tag-link {
+  background: #fff;
+  border-radius: 10px;
+  padding: 2px 12px;
+  margin-right: 10px;
+}
+
+.article-item__tag-link:hover {
+  background: $accent_text;
+  color: $invert_text;
+}
+
+.article-item__tag-link_size_s {
+  background: none;
+  padding: 0;
+}
+
+.article-item__tag-link_size_s:hover {
+  background: none;
+  color: $accent_text_hover;
+
+}

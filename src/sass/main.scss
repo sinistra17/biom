@@ -1,0 +1,114 @@
+
+@import url(/node_modules/normalize.css/normalize.css);
+@import 'variables';
+@import '../blocks/header/header.scss';
+@import '../blocks/header/__ad/header__ad.scss';
+@import '../blocks/ad/ad.scss';
+@import '../blocks/header-wrap/header-wrap.scss';
+@import '../blocks/navigation-menu/navigation-menu.scss';
+@import '../blocks/navigation-menu__empty-block/navigation-menu__empty-block.scss';
+@import '../blocks/menu-list/menu-list.scss';
+@import '../blocks/navigation-menu__menu-list/navigation-menu__menu-list.scss';
+@import '../blocks/menu-list__item/menu-list__item.scss';
+@import '../blocks/search/search.scss';
+@import '../blocks/search__button/search__button.scss';
+@import '../blocks/search__text/search__text.scss';
+@import '../blocks/header-navigation-divider/header-navigation-divider.scss';
+@import '../blocks/navigation-menu-all-themes/navigation-menu-all-themes.scss';
+@import '../blocks/navigation-menu-all-themes__link/navigation-menu-all-themes__link.scss';
+@import '../blocks/navigation-menu-all-themes__ico/navigation-menu-all-themes__ico.scss';
+@import '../blocks/header-logo/header-logo.scss';
+@import '../blocks/container/container.scss';
+@import '../blocks/container__header-logo/container__header-logo.scss';
+@import '../blocks/header-wrap__container/header-wrap__container.scss';
+@import '../blocks/container__header-subscribe/container__header-subscribe.scss';
+@import '../blocks/header-subscribe__ico/header-subscribe__ico.scss';
+@import '../blocks/header-subscribe__divider/header-subscribe__divider.scss';
+@import '../blocks/row/row.scss';
+@import '../blocks/article-list__article-item/article-list__article-item.scss';
+@import '../blocks/article-item/article-item.scss';
+@import '../blocks/article-item__img/article-item__img.scss';
+@import '../blocks/article-item__img-replacement/article-item__img-replacement.scss';
+@import '../blocks/article-item__tags/article-item__tags.scss';
+@import '../blocks/article-item__tag-link/article-item__tag-link.scss';
+@import '../blocks/article-item__header/article-item__header.scss';
+@import '../blocks/article-item__header-wrap/article-item__header-wrap.scss';
+@import '../blocks/article-item__content/article-item__content.scss';
+@import '../blocks/article-item__divider/article-item__divider.scss';
+@import '../blocks/article-item__footer/article-item__footer.scss';
+@import '../blocks/article-item__author/article-item__author.scss';
+@import '../blocks/article-item__date/article-item__date.scss';
+@import '../blocks/article-item__comments/article-item__comments.scss';
+@import '../blocks/article-item__comments-ico/article-item__comments-ico.scss';
+@import '../blocks/article-item__comments-number/article-item__comments-number.scss';
+@import '../blocks/page-header/page-header.scss';
+@import '../blocks/event/event.scss';
+@import '../blocks/event__img/event__img.scss';
+@import '../blocks/event__content/event__content.scss';
+@import '../blocks/event__tags/event__tags.scss';
+@import '../blocks/event__tag-link/event__tag-link.scss';
+@import '../blocks/event__header/event__header.scss';
+@import '../blocks/event__date/event__date.scss';
+@import '../blocks/event__info/event__info.scss';
+@import '../blocks/footer/footer.scss';
+@import '../blocks/footer-logo__img/footer-logo__img.scss';
+@import '../blocks/footer-copyright/footer-copyright.scss';
+@import '../blocks/container__footer-copyright/container__footer-copyright.scss';
+@import '../blocks/container__footer-copyright/container__footer-copyright.scss';
+@import '../blocks/container__menu-list_footer/container__menu-list_footer.scss';
+@import '../blocks/navigation-menu__link/navigation-menu__link.scss';
+@font-face {
+font-family: 'Proxima Nova Regular';
+src: url('../../fonts/Proxima Nova Regular/ProximaNova-Regular.eot');
+src: url('../../fonts/Proxima Nova Regular/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+url('../../fonts/Proxima Nova Regular/ProximaNova-Regular.woff') format('woff'),
+url('../../fonts/Proxima Nova Regular/ProximaNova-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url('../../fonts/Proxima Nova Bold/ProximaNova-Bold.eot');
+	src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+		url('../../fonts/Proxima Nova Bold/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/Proxima Nova Bold/ProximaNova-Bold.woff') format('woff'),
+		url('../../fonts/Proxima Nova Bold/ProximaNova-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gregor';
+  src: url('../../fonts/Gregor/Gregor.eot');
+  src: url('../../fonts/Gregor/Gregor.woff') format('woff'),
+       url('../../fonts/Gregor/Gregor.ttf') format('truetype'),
+       url('../../fonts/Gregor/Gregor.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: $base_bg;
+  font-family: "Gregor",serif;
+  margin: 0;
+
+}
+
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+a:link, a:visited, a:focus,
+a:hover, a:active
+ {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  //padding: 0;
+  //margin: 0;
+}

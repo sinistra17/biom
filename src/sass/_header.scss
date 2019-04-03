@@ -1,0 +1,132 @@
+.menu {
+  height: 84px;
+  background-color: $header_top;
+}
+
+.header-top-nav {}
+
+.header-top-nav_wrap {
+  display: inline-block;
+  margin-left: 190px;
+}
+.header-top-nav-menu {}
+.header-top-nav-menu__list {
+  list-style-type: none;
+  font-size: 18px;
+  margin: 18px 0 10px 0;
+}
+.header-top-nav-menu__item {
+  display: inline-block;
+  margin-right: 30px;
+}
+.header-top-nav-menu__link {}
+
+.search-wrap {
+
+  display: inline-block;
+}
+.search {
+  background: transparent;
+  border-color: transparent;
+  text-align: right;
+  color: $invert_text;
+  font-size: 18px;
+  background: url(../img/ico-search.jpg) no-repeat 60% 0;
+}
+
+.header-bottom-nav {}
+
+.header-bottom-nav_wrap {
+  padding-top: 6px;
+  border: solid #000;
+  border-width: 1px 0;
+}
+
+.all-themes-wrap {
+  display: inline-block;
+}
+
+.all-themes::before {
+  background-image: url(../img/ico-all-themes.jpg);
+  background-repeat: no-repeat;
+  content: '';
+  height: 17px;
+  width: 20px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.all-themes {
+  font-size: 12px;
+  text-transform: uppercase;
+  align-content: center;
+  font-weight: 600;
+}
+
+.all-themes__ico {
+  height: 20px;
+  width: 20px;
+  background: url(../img/ico-all-themes.jpg) no-repeat 60% 0;
+}
+
+.header-bottom-nav-menu {}
+.header-bottom-nav-menu_list {
+  height: 20px;
+  margin: 0;
+  margin-left: 100px;
+  list-style-type: none;
+  font-size: 11px;
+  color: $accent_text;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+
+}
+.header-bottom-nav-menu_item {
+  display: inline-block;
+  margin-right: 20px;
+}
+.header-bottom-nav-menu_link {}
+
+
+.header-logosub {
+  height: 102px;
+  background-color: $header_bottom;
+}
+
+.header-logosub_wrap {
+  font-size: 18px;
+  height: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  height: 50px;
+  width: 315px;
+  background: url(../img/logo.jpg) no-repeat 60% 0;
+}
+
+.header-sub {
+
+}
+
+.header-sub__sub {
+
+}
+
+.header-sub__sigh {
+  background-image: url(../img/ico-sub.jpg);
+  background-repeat: no-repeat;
+  height: 21px;
+  width: 24px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+
+.header-sub__sub_margin-right {
+  margin-right: 20px;
+
+}
