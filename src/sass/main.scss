@@ -59,31 +59,31 @@
 @import '../blocks/navigation-menu__link/navigation-menu__link.scss';
 @font-face {
 font-family: 'Proxima Nova Regular';
-src: url('../../fonts/Proxima Nova Regular/ProximaNova-Regular.eot');
-src: url('../../fonts/Proxima Nova Regular/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
-url('../../fonts/Proxima Nova Regular/ProximaNova-Regular.woff') format('woff'),
-url('../../fonts/Proxima Nova Regular/ProximaNova-Regular.ttf') format('truetype');
+src: url('../../build/fonts/Proxima Nova Regular/ProximaNova-Regular.eot');
+src: url('../../build/fonts/Proxima Nova Regular/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+url('../../build/fonts/Proxima Nova Regular/ProximaNova-Regular.woff') format('woff'),
+url('../../build/fonts/Proxima Nova Regular/ProximaNova-Regular.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
 
 @font-face {
 	font-family: 'Proxima Nova Bold';
-	src: url('../../fonts/Proxima Nova Bold/ProximaNova-Bold.eot');
+	src: url('../../build/fonts/Proxima Nova Bold/ProximaNova-Bold.eot');
 	src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
-		url('../../fonts/Proxima Nova Bold/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
-		url('../../fonts/Proxima Nova Bold/ProximaNova-Bold.woff') format('woff'),
-		url('../../fonts/Proxima Nova Bold/ProximaNova-Bold.ttf') format('truetype');
+		url('../../build/fonts/Proxima Nova Bold/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../../build/fonts/Proxima Nova Bold/ProximaNova-Bold.woff') format('woff'),
+		url('../../build/fonts/Proxima Nova Bold/ProximaNova-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
   font-family: 'Gregor';
-  src: url('../../fonts/Gregor/Gregor.eot');
-  src: url('../../fonts/Gregor/Gregor.woff') format('woff'),
-       url('../../fonts/Gregor/Gregor.ttf') format('truetype'),
-       url('../../fonts/Gregor/Gregor.eot?#iefix') format('embedded-opentype');
+  src: url('../../build/fonts/Gregor/Gregor.eot');
+  src: url('../../build/fonts/Gregor/Gregor.woff') format('woff'),
+       url('../../build/fonts/Gregor/Gregor.ttf') format('truetype'),
+       url('../../build/fonts/Gregor/Gregor.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
